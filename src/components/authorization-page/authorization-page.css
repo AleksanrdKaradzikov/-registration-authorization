@@ -1,0 +1,45 @@
+.form-auhorization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-auhorization__input {
+  height: 65px;
+  border: 1px solid #cdd0d1;
+  border-radius: 9px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  font-weight: 200;
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.form-auhorization__input:hover {
+  border-color: #939da0;
+}
+
+.form-auhorization__input:focus {
+  border-color: #939da0;
+}
+
+
+.form-auhorization__error--message {
+  color: #DF5868;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 601px) {
+  .form-auhorization {
+    width: 92%;
+  }
+}

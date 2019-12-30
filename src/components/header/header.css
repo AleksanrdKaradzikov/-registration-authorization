@@ -1,0 +1,39 @@
+.header {
+  background-color: #FFFFFF;
+  padding: 34px 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.header__heading {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin:0;
+  color: #000;
+}
+
+.header__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.header-link {
+  color: #000;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.header-link:hover {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #66D37E;
+}

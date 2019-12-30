@@ -1,0 +1,32 @@
+.home-page-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.home-page-form__label {
+  color: #000;
+  margin-top:10px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.btn-exit {
+  box-shadow: 4px 6px 10px rgba(241,106,81,.4);
+  color: #FFFFFF;
+  font-weight: 700;
+  background-color: #E06149;
+  padding: 20px 65px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top:10px;
+  transition:  background-color 0.3s ease;
+}
+
+.btn-exit:hover {
+  background-color: rgb(196, 124, 111);
+}
